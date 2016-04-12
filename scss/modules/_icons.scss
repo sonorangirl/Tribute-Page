@@ -1,0 +1,59 @@
+// ==========================================================================
+// Icon Styles
+// ==========================================================================
+
+.btn-success {
+	background-color: $darkgreen;
+	border-color: $darkgreen;
+
+	&:hover {
+		background-color: $lightgreen;
+		border-color: $lightgreen;
+	}
+}
+
+
+// Modal Styles
+.planet-express {
+	width: 100px;
+	height: 100px;
+}
+
+.modal-content {
+	background-color: $color-primary;
+
+	.modal-body {
+		text-align: center;
+
+		p {
+			color: $color-secondary;
+			font-size: 1.5em;
+		}
+	}
+
+	.modal-footer button {
+		background-color: $color-shadow;
+		color: $color-light;
+	}
+}
+
+//Character Icons
+.character {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

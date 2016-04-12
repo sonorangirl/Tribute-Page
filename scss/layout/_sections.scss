@@ -1,0 +1,45 @@
+// ==========================================================================
+// Section Styles
+// ==========================================================================
+
+.about {
+	text-align: center;
+
+	&-img {
+		width:50%;
+		height:50%;
+	}
+
+	
+	&-blurb {
+
+  		@media (min-width: $break-medium) {
+			margin-top: 10px;
+			margin-left: -90px;
+		}
+	}
+	
+}
+
+
+.learn-more {
+	background-color: $color-shadow;
+	border-radius: 8px;
+	padding-bottom: 20px;
+	margin-right: 5%;
+	margin-left: 5%; 
+	
+	h3 {
+		color: $color-light;
+
+		a {
+			color: $darkgreen;
+		}
+	}
+
+	
+}
+
+.quotes2 {
+	margin-top: -30px;
+}
